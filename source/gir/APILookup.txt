@@ -1,0 +1,42 @@
+wrap: libsecret
+file: Secret-1.gir
+
+move: attributes_build Secret
+move: attributes_buildv Secret
+move: error_get_quark Secret
+move: get_schema Secret
+move: password_clear Secret
+move: password_clear_finish Secret
+move: password_clear_sync Secret
+move: password_clearv Secret
+move: password_clearv_sync Secret
+move: password_free Secret
+move: password_lookup Secret
+move: password_lookup_finish Secret
+move: password_lookup_nonpageable_finish Secret
+move: password_lookup_nonpageable_sync Secret
+move: password_lookup_sync Secret
+move: password_lookupv Secret
+move: password_lookupv_nonpageable_sync Secret
+move: password_lookupv_sync Secret
+move: password_store Secret
+move: password_store_finish Secret
+move: password_store_sync Secret
+move: password_storev Secret
+move: password_storev_sync Secret
+move: password_wipe Secret
+
+struct: Collection
+code: start
+        alias getFlags = DBusProxy.getFlags;
+code: end
+
+struct: Item
+code: start
+        alias getFlags = DBusProxy.getFlags;
+code: end
+
+struct: Service
+code: start
+        alias getFlags = DBusProxy.getFlags;
+code: end

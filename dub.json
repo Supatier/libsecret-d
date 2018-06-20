@@ -1,0 +1,15 @@
+{
+        "name": "secret-d",
+        "authors": [
+                "supatier"
+        ],
+        "description": "D binding to libsecret https://github.com/GNOME/libsecret",
+        "copyright": "Copyright © 2018, supatier",
+        "license": "MPL-2.0",
+        "targetType": "library",
+        "dependencies": {
+                "gtk-d:gtkd": {
+                        "version": "3.8.2"
+                },
+        }
+}
