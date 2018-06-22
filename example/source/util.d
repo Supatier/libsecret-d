@@ -1,4 +1,20 @@
 module util;
+
+import std.stdio;
+import std.string;
+import std.datetime;
+import std.conv;
+import std.getopt;
+
+import libsecret.Collection;
+import libsecret.Schema;
+import libsecret.Service;
+import libsecret.Secret;
+import libsecret.c.functions;
+import libsecret.c.types;
+
+import gio.Cancellable;
+import glib.HashTable;
 class User {
         final HashTable createHashTable() {
                 import gtkc.glib;
