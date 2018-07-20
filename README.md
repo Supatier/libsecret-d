@@ -1,6 +1,7 @@
 libsecret-d
 -
 D binding to libsecret https://github.com/GNOME/libsecret
+Ping me if you feel this is outdated.
 
 TODO: finish readme
 
